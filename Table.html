@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng</title>
+    <style>
+        .table-employee{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        tr,td{
+            border: 3px solid red;
+        }
+        #table-header{
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<table class="table-employee">
+    <caption>Employee List</caption>
+<tr id="table-header">
+    <td>STT</td>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Phone</td>
+</tr>
+<tr>
+    <td colspan="2">1 A</td>
+
+    <td>a@</td>
+    <td>099999999</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td></td>
+    <td>b@</td>
+    <td>088888888</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td rowspan="2">C <br> D</td>
+    <td>c@</td>
+    <td>077777777</td>
+</tr>
+<tr>
+    <td>4</td>
+
+    <td>d@</td>
+    <td>0666666666</td>
+</tr>
+</table>
+</body>
+</html>
