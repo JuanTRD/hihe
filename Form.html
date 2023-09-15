@@ -2,29 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Order Form</title>
+
 </head>
 <body>
 <form >
-    <h1>LOGIN</h1>
+    <h1>Order Form</h1>
     <div>
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email">
+        <h3>What would you like?</h3>
+        <select name="SP" style="width:200px">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
     </div>
     <div>
-        <label for="password">Password </label>
-        <input type="text" id="password" name="password">
+        <h3>How many would you like to order?</h3>
+        <label><input type="radio" name="so"">1 - $10</label>
+        <label><input type="radio" name="so"">2 - $20</label>
+        <label><input type="radio" name="so"">3 - $30</label>
     </div>
     <div>
-        <input type="checkbox" name="remember" id="remember">
-        <label for="remember">Remember</label>
+        <h3>Name *</h3>
+        <input type="text" name="firstname">
+        <input type="text" name="lastname">
     </div>
     <div>
-        <label for="avatar">Avatar</label>
-        <input type="file" id="avatar"  name="avatar">
+        <h3>Email</h3>
+        <input type="text" name="email" style="width:200px;">
+    </div>
+    <div>
+        <h3>Phone Number</h3>
+        <input type="text"> - <input type="text"> - <input type="text">
     </div>
     <button type="submit">Login</button>
-    <button type="reset">Reset</button>
+
 </form>
 </body>
 </html>
